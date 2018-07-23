@@ -1,0 +1,38 @@
+# export PATH=$PATH:/usr/local/go/bin
+
+# array
+array := [5]int{5, 4, 3, 2, 1} #一行内初始化一个array
+var arr [5]int #创建数组arr,存放5个int,元素的类型和长度都是数组类型的一部分,数组默认值为0,对于int数组来说就是0
+/*
+len(),通过array[index] = value来设置array指定位置的值或使用array[index]获取值.array的存储类型是单一的,可以组合这些数据来构造多纬数据结构,
+var twoArr [2][3]int
+for i := 0;i < 2;i++ {
+	for j := 0;j < 3;j++ {
+		twoArr[i][j] = i + j
+	}
+}
+*/
+
+# slice
+slice := []string{"G", "H", "I"} #一行内初始化一个slice
+s := make([]string, 3) #slice的类型仅由包含的元素决定(不像array还需要长度),创建一个长度非0的空slice,可用内建方法make()
+/*
+len(),append(),copy(),使用slice[low:high]切片
+多维slice:
+twoSlice := make([][]int, 3)
+for i := 0;i < 3;i++ {
+	innerLen := i + 1
+	twoSlice[i] = make([]int, innerLen)
+	for j := 0;j < innerLen;j++ {
+		twoSlice[i][j] = i + j
+	}
+}
+*/
+
+# map
+map := map[string]int{"foo": 3, "bar": 9} #一行内初始化一个map
+m := make(map[string]int) #创建map,使用make(map[key-type]val-type)
+/*
+len(),map[key] = val设置键值对,map[key]获取某个键的值
+_, prs := map["k2"],使用_消除key不存在和key有0值
+*/
