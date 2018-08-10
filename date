@@ -1,0 +1,60 @@
+> date
+2018年 08月 10日 星期五 18:56:17 CST
+
+> grep hello
+hello grep
+
+> ls -a -l -h
+total 2.2M
+drwxr-xr-x 5 root root 4.0K 8月  10 18:56 .
+drwxr-xr-x 6 root root 4.0K 7月  18 15:47 ..
+-rw-r--r-- 1 root root  602 7月  18 17:26 array.go
+-rw-r--r-- 1 root root  326 7月  25 18:13 atomic-counters.go
+-rw-r--r-- 1 root root  414 8月  10 17:19 base64-encoding.go
+-rw-r--r-- 1 root root 1.3K 7月  27 14:43 collection-function.go
+drwxr-xr-x 2 root root 4.0K 8月  10 18:38 command
+-rw-r--r-- 1 root root  208 7月  18 16:19 const.go
+-rw-r--r-- 1 root root   76 8月  10 18:56 date
+-rw-r--r-- 1 root root  405 7月  27 11:21 defer.go
+-rw-r--r-- 1 root root  276 8月  10 18:42 environment-variables.go
+-rw-r--r-- 1 root root  834 7月  24 09:50 error.go
+-rw-r--r-- 1 root root  399 7月  18 16:44 for.go
+-rw-r--r-- 1 root root 1.3K 7月  19 16:26 func.go
+drwxr-xr-x 8 root root 4.0K 7月  27 17:56 .git
+-rw-r--r-- 1 root root   10 7月  27 17:55 .gitignore
+-rw-r--r-- 1 root root 3.2K 7月  25 16:49 goroutines.go
+-rw-r--r-- 1 root root  130 7月  18 15:59 hello.go
+-rw-r--r-- 1 root root  367 7月  18 16:50 if.go
+-rw-r--r-- 1 root root  937 7月  20 17:12 interface.go
+-rw-r--r-- 1 root root 1.5K 7月  27 17:22 json.go
+-rw-r--r-- 1 root root  297 8月  10 18:21 line-filters.go
+-rw-r--r-- 1 root root  419 7月  18 18:52 map.go
+-rw-r--r-- 1 root root  773 7月  25 18:21 mutexes.go
+-rw-r--r-- 1 root root  382 8月  10 16:54 number-parsing.go
+-rw-r--r-- 1 root root  127 7月  27 10:53 panic.go
+-rw-r--r-- 1 root root  824 7月  19 16:46 pointer.go
+-rw-r--r-- 1 root root  616 8月   9 16:46 random-numbers.go
+-rw-r--r-- 1 root root  673 7月  19 15:15 range.go
+-rw-r--r-- 1 root root  691 7月  25 17:17 rate-limiting.go
+-rw-r--r-- 1 root root  827 8月  10 17:42 reading-files.go
+-rw-r--r-- 1 root root 1.3K 7月  20 16:18 .readme
+-rw-r--r-- 1 root root  798 7月  27 16:19 regular-expressions.go
+-rw-r--r-- 1 root root  317 8月  10 17:11 sha1-hashes.go
+-rw-r--r-- 1 root root 1.1K 7月  18 18:22 slice.go
+-rw-r--r-- 1 root root  587 7月  27 10:48 sorting.go
+-rw-r--r-- 1 root root  718 8月  10 18:55 spawning-processes.go
+-rw-r--r-- 1 root root  968 7月  26 16:49 stateful-goroutines.go
+-rw-r--r-- 1 root root  846 7月  27 15:30 string-formatting.go
+-rw-r--r-- 1 root root  636 7月  27 15:03 string-functions.go
+-rw-r--r-- 1 root root 1.4K 7月  20 11:15 struct.go
+-rw-r--r-- 1 root root  557 7月  18 17:02 switch.go
+-rwxr-xr-x 1 root root 2.0M 7月  18 16:00 test
+-rw-r--r-- 1 root root  556 7月  28 13:01 time.go
+-rw-r--r-- 1 root root  545 7月  25 16:57 timers.go
+drwxr-xr-x 2 root root 4.0K 8月  10 18:22 tmp
+-rw-r--r-- 1 root root  547 8月  10 17:02 url-parsing.go
+-rw-r--r-- 1 root root  214 7月  18 16:03 values.go
+-rw-r--r-- 1 root root  247 7月  18 16:15 variables.go
+-rw-r--r-- 1 root root  455 7月  25 17:06 worker-pools.go
+-rw-r--r-- 1 root root  594 8月  10 18:06 writing-files.go
+
